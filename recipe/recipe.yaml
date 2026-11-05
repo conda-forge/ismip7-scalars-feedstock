@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ismip7-scalars
-  version: "0.1.0"
+  version: "0.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ismip/ismip7-scalar-processing/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 210bbc1f810e635d1091b1e051cebafff4cd43e33715176608a2a9fcfa4277f5
+  sha256: 4a8b8ce537823b2054ea8eefa1ef1995fb92f6dca7526a65e195d4c2d28f9921
 
 build:
   number: 0
